@@ -67,9 +67,9 @@ def play_game():
             )
             loses += 1
 
-        if wins == 5:
+        if wins >= 3:
             sys.exit("Congratulation! You won the game.")
-        elif loses == 5:
+        elif loses >= 3:
             sys.exit("Oops! Computer won the game. You Lose.")
 
 
